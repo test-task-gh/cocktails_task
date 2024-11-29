@@ -4,6 +4,8 @@
 Реализовать приложение с выводом данных полученных по API.
 Пример схематичного интерфейса приложения изображен в app_example.png
 
+<img src="https://github.com/user-attachments/assets/06f9ad91-259a-49db-ad08-b079320c240f" alt="app_example.png" width="500">
+
 Исходные данные:
 - Всю необходимую информацию запрашиваем по GET-запросу: https://www.thecocktaildb.com/api/json/v1/1/search.php?s=<cocktail_code>
 - Доступные cocktail_code: margarita, mojito, a1, kir
