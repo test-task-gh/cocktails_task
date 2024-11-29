@@ -1,0 +1,52 @@
+.errorText {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff8b8b;
+  margin-bottom: 20px;
+}
+
+.detailsTop {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.shortInfo {
+  flex-grow: 1;
+  margin-right: 40px;
+}
+
+.picture {
+  width: 300px;
+  font-size: 0;
+  flex-shrink: 0;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.triangle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 0 5px 8px;
+  border-color: transparent transparent transparent #000000;
+}
+
+@media (max-width: 800px) {
+  .detailsTop {
+    display: block;
+  }
+
+  .shortInfo {
+    flex-grow: 1;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,26 @@
+.root {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.img:not(:only-child) {
+  position: absolute;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.imgPlaceholder {
+  background: #cfcfcf;
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 8px;
+  filter: blur(4px);
+}

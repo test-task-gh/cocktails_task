@@ -1,0 +1,1 @@
+export { getCocktailDetails } from './getCocktailDetails';

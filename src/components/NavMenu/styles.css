@@ -1,0 +1,99 @@
+.NavMenu {
+  flex-shrink: 0;
+  overflow: auto;
+  height: 100%;
+  width: 170px;
+  padding: 30px 0;
+  border-right: 2px solid #000000;
+  border-left: 2px solid #000000;
+}
+
+.NavMenu a,
+.NavMenuMini a {
+  color: #272727;
+  text-decoration: none;
+  border-top: 2px solid #00000000;
+  border-bottom: 2px solid #00000000;
+  display: block;
+  padding: 4px 14px;
+  transition: all ease-in-out 0.15s;
+}
+
+.NavMenu a:hover,
+.NavMenu a:focus,
+.NavMenuMini a:hover,
+.NavMenuMini a:focus {
+  background: #f3f3f3;
+}
+
+.NavMenu a.active {
+  border-top: 2px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
+  background: #f3f3f3;
+}
+
+.NavMenuMini a {
+  border-radius: 8px;
+}
+
+.NavMenuMini a.active {
+  border-bottom: 2px solid #cccccc;
+  background: #f3f3f3;
+}
+
+.NavMenuMini {
+  display: none;
+  position: fixed;
+  right: 0;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 0 0 0 8px;
+  box-shadow: 0 0 4px #000;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.burger {
+  margin: 2px 0 6px;
+}
+
+.burger div {
+  height: 4px;
+  background: #000000;
+  margin-bottom: 4px;
+  width: 30px;
+  margin-left: auto;
+}
+
+.links {
+  display: none;
+}
+
+.links.linksOpen {
+  display: block;
+}
+
+.links a {
+  display: block;
+}
+
+.substrate {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  background: #000000;
+  z-index: 1;
+}
+
+@media (max-width: 800px) {
+  .NavMenu {
+    display: none;
+  }
+
+  .NavMenuMini {
+    display: block;
+  }
+}

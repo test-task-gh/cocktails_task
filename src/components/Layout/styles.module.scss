@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+  /* fallback 100vh */
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .root {
+    padding: 0 8px;
+  }
+}
